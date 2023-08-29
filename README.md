@@ -131,7 +131,7 @@ Before modeling can be considered, it is imperative to understand the data. To '
 
 Modeling requires experience but at this point, requires to try multiple approaches to determine which is most likely to be accurate, using tools like  cross-validation, r^2, MSE etc.
 
-The response to the initial question of 'What factor(s) determine the price of a car?' is 'it depends'. The different models yielded very similar results. R^2, neg_mean_absolute_percentage_error, neg_mean_squared_error suggest **'model'**. The final test, using polynomial features, uses all of the features and creates polynomial combinations to the power of 6 (46,656 permutations).
+The response to the initial question of 'What factor(s) determine the price of a car?' is 'it depends'. The different models yielded very similar results. R^2, neg_mean_absolute_percentage_error, neg_mean_squared_error suggest **'model'**. The final test that has the lowest MSEs and the highest score of all of the other tests, using polynomial features, uses all of the features and creates polynomial combinations to the power of 6 (46,656 permutations).
 
 ```
 Features: ['region' 'year' 'manufacturer' 'model' 'odometer' 'state']
