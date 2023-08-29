@@ -41,7 +41,7 @@ Coefficients [-0.01796291  0.35782479 -0.0380825   0.03416006 -0.35935447 -0.033
 ```
 ![alt](images/6_lr_scatter_plot.png)
 
-Both of the MSE are small and close to one another. The coefficients also suggest the desired intercept. The curve in the 'residuals' suggests that there is another factor (perhaps or more of the dropped columns that plays a part in the prediction)
+Both of the MSE are small and close to one another. The coefficients also suggest the desired intercept. The curve in the 'residuals' suggests that there is another factor (perhaps one or more of the dropped columns that plays a part in the prediction).
 
 The Principal Component Analysis yielded:
 ```
