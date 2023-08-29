@@ -8,4 +8,12 @@
   | 2  | price        |
   | 3  | year         |
   | 4  | manufacturer |
+  
+  | ID   | COLUMN         |
+  |-----:|----------------|
+  |     0| id     |
+  |     1| region    |
+  |     2| price       |
+  |     3| year |
+  |     4| manufacturer |
 </details>
